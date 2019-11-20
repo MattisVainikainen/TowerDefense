@@ -6370,7 +6370,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7, y: -11, z: 7, w: 1.5e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -12904,6 +12904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681078157}
   - component: {fileID: 1681078156}
+  - component: {fileID: 1681078158}
   m_Layer: 0
   m_Name: _GM
   m_TagString: Untagged
@@ -12942,6 +12943,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681078158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681078155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ceb78c996db3dd49bbe7643a83b32d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardTurretPrefab: {fileID: 8258964818842654955, guid: 50d8a556f78a2f74b998c15e66585c2c,
+    type: 3}
 --- !u!4 &1692070394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3134937322612694345, guid: 9eaaf14ae45eab24b9da789165c138de,
